@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+
+<head>
+    <title>Element</title>
+</head>
+<link rel="stylesheet" type="text/css" href="./assets/js/style.css">
+<link rel="stylesheet" type="text/css" href="//unpkg.com/element-ui@1.0.0-rc.3/lib/theme-default/index.css">
+
+<body>
+    <script src="//unpkg.com/vue@2.0.0-rc.6/dist/vue.js"></script>
+    <script src="//unpkg.com/element-ui@1.0.0-rc.3/lib/index.js"></script>
+    <div id="app"></div>
+    <script type="text/javascript">
+    var Main = {
+        template: `
+    <el-card>
+    	请更新 Vue 和 Element 的版本号
+    </e-card>
+  `
+    }
+
+    new Vue({
+        el: '#app',
+        render: h => h(Main)
+    })
+    </script>
+</body>
+
+</html>
